@@ -8,7 +8,7 @@ end = distr.ppf(0.99)
 size = 10000
 
 x = np.linspace(start, end, size)
-y = distr.pdf(x) #pmf cdf
+y = distr.pdf(x)
  
 plt.xkcd()
 sad = plt.text(1500,2,':(')
